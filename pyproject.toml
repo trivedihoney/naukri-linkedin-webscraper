@@ -8,5 +8,6 @@ dependencies = [
     "beautifulsoup4>=4.13.3",
     "ipykernel>=6.29.5",
     "pandas>=2.2.3",
+    "requests>=2.32.3",
     "selenium>=4.28.1",
 ]
