@@ -30,7 +30,7 @@ class JobListing:
     
 job_title = 'Data Scientist'
 job_location = ''
-number_of_pages = 0
+number_of_pages = 5
 
 def naukri_url_maker(job_title: str, job_location: str | None = None, no_of_pages: int = 1):
     urls = []
