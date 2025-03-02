@@ -84,6 +84,8 @@ def get_naukri_listings(driver : WebDriver, urls : list):
                 job_post_date = datetime.date.today()
             elif 'yesterday' in job_post_day.lower():
                 job_post_date = datetime.date.today() - datetime.timedelta(days=1)
+            elif 'just' in job_post_day.lower():
+                job_post_date = datetime.date.today()
             else:
                 job_post_day = job_post_day.split()[0]
                 # Remove '+' sign from the day if present
